@@ -1,5 +1,6 @@
-altair
-numpy
-pandas
-pydeck
 streamlit
+joblib
+pandas
+scikit-learn
+tensorflow
+keras
