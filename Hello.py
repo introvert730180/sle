@@ -28,22 +28,26 @@ custom_css = """
             padding: 20px;
         }
         .stButton>button {
-            background-color: #FF5733;
+            background-color: #222121;
             color: white;
             font-weight: bold;
             font-size: 16px;
             padding: 10px 20px;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
         }
         .stButton>button:hover {
-            background-color: #FF7F50;
+            background-color: #2c3e50;
         }
         .stTextInput>div>div>input {
-            background-color: #FFF0E0;
-            color: #333;
+            background-color: #2c3e50;
+            color: #fafcff;
             font-size: 16px;
             border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
         }
         .stTextInput>div>label {
             font-size: 16px;
@@ -55,7 +59,7 @@ custom_css = """
         }
         .stText>div>div>div>span>span {
             font-size: 16px;
-            color: #333;
+            color: #fafcff;
         }
     </style>
 """
