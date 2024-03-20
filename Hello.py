@@ -44,9 +44,6 @@ custom_css = """
             color: #333;
             font-size: 16px;
             border-radius: 5px;
-            border: 1px solid #ccc;
-            padding: 8px;
-            box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
         }
         .stTextInput>div>label {
             font-size: 16px;
@@ -100,10 +97,10 @@ def main():
             output1, output2 = st.columns(2)
             with output1:
                 st.write("Text Field 1:")
-                st.text_input("% Overall Cross removal", str(predictions_cross[0][0]), type="password")
+                st.text_input("% Overall Cross removal", str(predictions_cross[0][0]))
             with output2:
                 st.write("Text Field 2:")
-                st.text_input("% Overall Counter removal", str(predictions_counter[0][0]), type="password")
+                st.text_input("% Overall Counter removal", str(predictions_counter[0][0]))
 
         else:
             # Display error message if any input box is empty
